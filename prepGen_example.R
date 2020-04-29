@@ -5,7 +5,7 @@
 
 # --- functions to make simulation work
 source(paste0(getwd(), "/simsCode/precipitationGEN.R"))
-source(paste0(getwd(), "/simsCode/parameters.R"))
+source(paste0(getwd(), "/simsCode/parameters.R")) 
 
 getPixel <- function(m){
   flag <- F
